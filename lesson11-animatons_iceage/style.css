@@ -45,13 +45,9 @@ img {
 
 @keyframes moveIcons2 {
   0% {
-    /* transform: translateX(0);
-    transform: translateY(0); */
     transform: translate(0, 0);
   }
   100% {
-    /* transform: translateX(-100%);
-    transform: translateY(200%); */
     transform: translate(100%, 200%);
   }
 }
@@ -67,10 +63,10 @@ img {
 
 @keyframes moveIcons4 {
   0% {
-    transform: translate(0,0);
+    transform: translate(0, 0);
   }
   100% {
-    transform: translate(100%,100%);
+    transform: translate(100%, 100%);
   }
 }
 
@@ -118,6 +114,8 @@ img {
     transform: translateY(-100%) translateX(-200%);
   }
 }
+
+/* tek-tek ustlerine uygunlasdirdim. */
 
 #icons1 {
   animation: moveIcons1 1.5s forwards;
